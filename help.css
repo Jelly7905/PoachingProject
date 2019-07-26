@@ -1,0 +1,82 @@
+body {
+  background-color: #BC986A
+}
+
+body {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+p {
+  font-size: 23px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333
+  opacity: 50% ;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+h1 {
+  font-family: 'Berkshire Swash', cursive;
+  color: black;
+  text-shadow: 2px 2px 7px white;
+  font-size: 400%;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,50 @@
+body {
+  background: url(https://i.pinimg.com/564x/fe/7b/44/fe7b44dbac3fde866b334c3140bcb6be.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333
+  opacity: 50% ;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+p {
+  color: aqua;
+  font-size: 23px;
+}
+
+h1 {
+  color: black;
+  text-shadow: 2px 2px 7px aqua;
+  font-family: 'Metal Mania', cursive;
+  font-size: 400%;
+}
